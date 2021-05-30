@@ -68,3 +68,44 @@ map遍历，second表示取map中的value，first表示取map的key
 2、(n&1)：直接与1相与
 ```
 
+string-->int :
+
+```c++
+	char* s = "1234";
+	string str("5678");
+	int intS = atoi(s);
+	//此写法会报错
+	//int intStr = atoi(str);
+	//需先将string转成char*
+	int intStr = atoi(str.c_str());
+```
+
+int-->string:
+
+```c++
+int main(){
+    int n=100;
+    string str=to_string(n);
+    return 0;
+}
+```
+
+char-->int:
+
+```
+c-'0';
+```
+
+int-->char:
+
+```
+1+'0';
+```
+
+往字符串中插入字符：
+
+```c++
+str.insert(i,count,'c');//在第i位插入count个字符c
+str.insert(str.begin()+i,'c');//在距离起始的i位置插入1个字符c
+```
+
