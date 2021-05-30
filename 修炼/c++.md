@@ -118,3 +118,9 @@ str.insert(str.begin()+i,'c');//在距离起始的i位置插入1个字符c
 int ans=__builtin_popcount(i);
 ```
 
+字符串拼接
+
+```c++
+str.append(strstr);
+```
+
