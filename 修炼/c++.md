@@ -66,6 +66,9 @@ map遍历，second表示取map中的value，first表示取map的key
 ```c++
 1、(n>>1)&1：右移一位与1相与
 2、(n&1)：直接与1相与
+3、>>：除法/2
+4、<<：乘法*2
+5、&：求余&1
 ```
 
 string-->int :
@@ -107,5 +110,11 @@ int-->char:
 ```c++
 str.insert(i,count,'c');//在第i位插入count个字符c
 str.insert(str.begin()+i,'c');//在距离起始的i位置插入1个字符c
+```
+
+统计十进制数转换二进制后，包含1的个数
+
+```c++
+int ans=__builtin_popcount(i);
 ```
 
