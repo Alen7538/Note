@@ -140,3 +140,9 @@ int lowbit(int n){
 }
 ```
 
+不对map进行自动排序
+
+```c++
+unordered_map
+```
+
