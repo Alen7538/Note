@@ -146,3 +146,9 @@ int lowbit(int n){
 unordered_map
 ```
 
+string排序超时，改成char数组进行
+
+```java
+(string)s.c_str();
+```
+
