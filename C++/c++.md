@@ -152,3 +152,10 @@ string排序超时，改成char数组进行
 (string)s.c_str();
 ```
 
+int转成double
+
+```java
+int*100.0(需要有.0)
+```
+
+cin后接着使用getline语句，会产生一空行；因为cin使用过后回产生一个回车，而这个回车会被getline语句识别到。避免此事的发生可在cin语句后使用cin.get()。
