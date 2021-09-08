@@ -166,3 +166,6 @@ cin后接着使用getline语句，会产生一空行；因为cin使用过后回�
 cout<<setw(3)<<setfill('0')<<a<<endl;
 ```
 
+vectorz中参数为pair类型，排序时按根据第一个元素进行比较。
+
+priority_queue<Type,Container,Functional>为优先队列,Type就是数据类型，container表示容器类型（可以为vector，depue等，但是不能为list，默认为vector），functional表示比较的方式，less<int>  表示大根堆，降序队列，greater表示小根堆，升序队列。
